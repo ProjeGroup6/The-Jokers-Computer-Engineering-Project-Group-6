@@ -1,6 +1,6 @@
 [submodule "mapping-and-autonomous-movement"]
 	path = mapping-and-autonomous-movement
-	url = https://github.com/ProjeGroup6/mapping-and-autonomous-movement/tree/main
+	url = https://github.com/ProjeGroup6/mapping-and-autonomous-movement/
 [submodule "desktop-app"]
 	path = desktop-app
 	url = https://github.com/ProjeGroup6/desktop-app
