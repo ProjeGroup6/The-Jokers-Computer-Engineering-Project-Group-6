@@ -5,11 +5,11 @@
 In order to run this project where we used many different libraries, follow the steps carefully and make sure you don't miss any of the steps.
 
 1.  Robot-Side
-    It will be sufficient to open the robot in order to run the servers of the desktop application, lidar and camera by the robot.
-    The `start.sh` bash will automatically start Main.py in the `/Desktop/Remote-Control` folder.
+    To run the server in the robot, create a terminal, and run the following command:
+    `python3 ~/Desktop/RemoteControl/TestMain.py`
 
 2.  Desktop App
-    Desktop application requires the installation of more than one library.
+    The desktop application requires the installation of more than one library.
     If you already have the libraries below, you can skip the installations. If not, run the commands below after installing the libraries.
     `git clone https://github.com/ProjeGroup6/desktop-app.git`
     `cd desktop-app`
@@ -21,11 +21,11 @@ If the following libraries are not installed, please install them:
 - PyQt5:
   You can install this library that we used to design the interface application from this [link](https://pypi.org/project/PyQt5/).
 - pyqtgraph:
-  In order to run custom map and autonomous codes, install this library by following this [link](https://pypi.org/project/pyqtgraph/).
+  In order to run custom map and autonomous code, install this library by following this [link](https://pypi.org/project/pyqtgraph/).
 - OpenCV:
   You can install this library, which we use to transfer the camera image, from this [link](https://pypi.org/project/opencv-python/).
 - Tensorflow:
-  You can install this library, which we used to load our custom trained model, from this [link](https://pypi.org/project/tensorflow/).
+  You can install this library, which we used to load our custom-trained model, from this [link](https://pypi.org/project/tensorflow/).
 - Tensorflow Object Detection API:
   You can install this API, which we used to detect objects using our model, by following the steps in this [link](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2.md).
 
