@@ -3,16 +3,16 @@
 ## Installation
 
 ### Connection
-There is a script in Raspberry and it connects directly with the following network information:
-Network Name --> jokers
-password     --> jokers123
-If such wifi cannot be provided, first of all, it is connected to Raspberry via hdmi. Manual access to the internet is provided.
-In order to connect with ssh and access the robot's shell, the robot's IP must be known.
-For this, ping raspberrypi.local command can be used with another linux computer on the same internet. There may be other methods. After obtaining the IP, with another computer on the same network,A request for ssh connection is sent with the ssh pi4@<IP> command.
+There is a script in Raspberry and it connects directly with the following network information:<br />
+Network Name --> jokers<br />
+password     --> jokers123<br />
+If such wifi cannot be provided, first of all, it is connected to Raspberry via hdmi. Manual access to the internet is provided.<br />
+In order to connect with ssh and access the robot's shell, the robot's IP must be known.<br />
+For this, ping raspberrypi.local command can be used with another linux computer on the same internet. There may be other methods. After obtaining the IP, with another computer on the same network,A request for ssh connection is sent with the ssh pi4@<IP> command.<br />
 
-A password will be requested with this command. The password we set for our robot is 'raspberry'. This password is entered.
-Name     --> pi4
-password --> raspberry
+A password will be requested with this command. The password we set for our robot is 'raspberry'. This password is entered.<br />
+Name     --> pi4<br />
+password --> raspberry<br />
 
 In order to run this project where we used many different libraries, follow the steps carefully and make sure you don't miss any of the steps.
 
