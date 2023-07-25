@@ -5,7 +5,7 @@
 ### Connection
 There is a script in Raspberry and it connects directly with the following network information:<br />
 Network Name --> jokers<br />
-password     --> jokers123<br />
+password     --> jokers123<br /><br />
 If such wifi cannot be provided, first of all, it is connected to Raspberry via hdmi. Manual access to the internet is provided.<br />
 In order to connect with ssh and access the robot's shell, the robot's IP must be known.<br />
 For this, ping raspberrypi.local command can be used with another linux computer on the same internet. There may be other methods. After obtaining the IP, with another computer on the same network,A request for ssh connection is sent with the ssh pi4@<IP> command.<br />
